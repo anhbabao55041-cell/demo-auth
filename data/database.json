@@ -1,0 +1,261 @@
+{
+  "adminKey": "thai",
+  "admins": [
+    {
+      "id": "admin_01",
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@vietauth.vn",
+      "role": "SUPER_ADMIN",
+      "plan": "ENTERPRISE",
+      "createdAt": "2026-09-01T00:00:00Z"
+    }
+  ],
+  "apps": [
+    {
+      "id": "app_viet_01",
+      "name": "Tool VIP Pro Auto 2026",
+      "appId": "app_pk_viet_9a8b7c6d5e4f",
+      "secretKey": "sk_live_viet_849203847291039482",
+      "version": "2.5.0",
+      "platform": "C# (.NET / WinForms)",
+      "description": "Ứng dụng tiện ích và tự động hóa cao cấp cho Windows",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-15T08:30:00Z",
+      "usersCount": 142,
+      "licensesCount": 250
+    },
+    {
+      "id": "app_viet_02",
+      "name": "VietBot Trade Crypto & Forex",
+      "appId": "app_pk_viet_3c4d5e6f7a8b",
+      "secretKey": "sk_live_viet_109283746501928374",
+      "version": "1.8.2",
+      "platform": "Python 3",
+      "description": "Bot phân tích kỹ thuật và cảnh báo tín hiệu thị trường",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-20T10:15:00Z",
+      "usersCount": 58,
+      "licensesCount": 95
+    }
+  ],
+  "licenses": [
+    {
+      "id": "lic_001",
+      "key": "VIET-VIP-8888-9999-AAAA",
+      "applicationId": "app_viet_01",
+      "subscriptionLevel": "VIP",
+      "durationDays": 30,
+      "status": "ACTIVE",
+      "hwid": "HWID-PC-VIETNAM-882194",
+      "hwidEnabled": true,
+      "activationLimit": 1,
+      "activationCount": 1,
+      "createdAt": "2026-09-25T09:00:00Z",
+      "activatedAt": "2026-09-25T09:30:00Z",
+      "expiresAt": "2026-10-25T09:30:00Z",
+      "lastUsedAt": "2026-09-29T18:20:00Z",
+      "notes": "Khách mua gói tháng - Zalo: 0988.123.456",
+      "banReason": null
+    },
+    {
+      "id": "lic_002",
+      "key": "VIET-LIFE-7777-6666-BBBB",
+      "applicationId": "app_viet_01",
+      "subscriptionLevel": "ENTERPRISE",
+      "durationDays": 0,
+      "status": "ACTIVE",
+      "hwid": "HWID-DELL-VIET-990142",
+      "hwidEnabled": true,
+      "activationLimit": 1,
+      "activationCount": 1,
+      "createdAt": "2026-09-20T14:00:00Z",
+      "activatedAt": "2026-09-20T14:10:00Z",
+      "expiresAt": null,
+      "lastUsedAt": "2026-09-29T19:00:00Z",
+      "notes": "Bản quyền vĩnh viễn (Lifetime) - Khách đại lý",
+      "banReason": null
+    },
+    {
+      "id": "lic_003",
+      "key": "VIET-PRO-1111-2222-CCCC",
+      "applicationId": "app_viet_01",
+      "subscriptionLevel": "PRO",
+      "durationDays": 7,
+      "status": "UNUSED",
+      "hwid": null,
+      "hwidEnabled": true,
+      "activationLimit": 1,
+      "activationCount": 0,
+      "createdAt": "2026-09-28T16:00:00Z",
+      "activatedAt": null,
+      "expiresAt": null,
+      "lastUsedAt": null,
+      "notes": "Key tuần chưa kích hoạt - Chờ giao khách",
+      "banReason": null
+    },
+    {
+      "id": "lic_004",
+      "key": "VIET-TEST-3333-4444-DDDD",
+      "applicationId": "app_viet_01",
+      "subscriptionLevel": "BASIC",
+      "durationDays": 1,
+      "status": "EXPIRED",
+      "hwid": "HWID-ASUS-VIET-554433",
+      "hwidEnabled": true,
+      "activationLimit": 1,
+      "activationCount": 1,
+      "createdAt": "2026-09-27T08:00:00Z",
+      "activatedAt": "2026-09-27T08:05:00Z",
+      "expiresAt": "2026-09-28T08:05:00Z",
+      "lastUsedAt": "2026-09-28T07:55:00Z",
+      "notes": "Key test 1 ngày đã hết hạn",
+      "banReason": null
+    },
+    {
+      "id": "lic_005",
+      "key": "VIET-BAN-5555-6666-EEEE",
+      "applicationId": "app_viet_01",
+      "subscriptionLevel": "VIP",
+      "durationDays": 30,
+      "status": "BANNED",
+      "hwid": "HWID-BAD-USER-0001",
+      "hwidEnabled": true,
+      "activationLimit": 1,
+      "activationCount": 1,
+      "createdAt": "2026-09-26T11:00:00Z",
+      "activatedAt": "2026-09-26T11:30:00Z",
+      "expiresAt": "2026-10-26T11:30:00Z",
+      "lastUsedAt": "2026-09-27T02:00:00Z",
+      "notes": "Khóa do vi phạm share key cho nhiều máy",
+      "banReason": "Vi phạm chia sẻ tài khoản trái phép"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_001",
+      "applicationId": "app_viet_01",
+      "username": "nguyenvana",
+      "email": "vana@gmail.com",
+      "status": "ACTIVE",
+      "hwid": "HWID-PC-VIETNAM-882194",
+      "licenseKey": "VIET-VIP-8888-9999-AAAA",
+      "ipAddress": "113.161.45.22",
+      "createdAt": "2026-09-25T09:30:00Z",
+      "lastLogin": "2026-09-29T18:20:00Z"
+    },
+    {
+      "id": "usr_002",
+      "applicationId": "app_viet_01",
+      "username": "tranthib",
+      "email": "thib@gmail.com",
+      "status": "ACTIVE",
+      "hwid": "HWID-DELL-VIET-990142",
+      "licenseKey": "VIET-LIFE-7777-6666-BBBB",
+      "ipAddress": "14.162.88.91",
+      "createdAt": "2026-09-20T14:10:00Z",
+      "lastLogin": "2026-09-29T19:00:00Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "var_001",
+      "applicationId": "app_viet_01",
+      "name": "APP_VERSION",
+      "value": "2.5.0",
+      "isSecret": false,
+      "updatedAt": "2026-09-29T10:00:00Z"
+    },
+    {
+      "id": "var_002",
+      "applicationId": "app_viet_01",
+      "name": "UPDATE_URL",
+      "value": "https://vietauth.vn/updates/latest_v250.zip",
+      "isSecret": false,
+      "updatedAt": "2026-09-29T10:00:00Z"
+    },
+    {
+      "id": "var_003",
+      "applicationId": "app_viet_01",
+      "name": "MAINTENANCE_MSG",
+      "value": "Hệ thống hoạt động bình thường, máy chủ mượt mà!",
+      "isSecret": false,
+      "updatedAt": "2026-09-29T10:00:00Z"
+    },
+    {
+      "id": "var_004",
+      "applicationId": "app_viet_01",
+      "name": "ENCRYPTION_SALT",
+      "value": "viet_auth_secret_token_#2026_xyz",
+      "isSecret": true,
+      "updatedAt": "2026-09-29T10:00:00Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_001",
+      "timestamp": "2026-09-29T19:00:00Z",
+      "action": "API_VERIFY_SUCCESS",
+      "user": "tranthib",
+      "applicationId": "app_viet_01",
+      "result": "SUCCESS",
+      "details": "Xác thực key thành công cho HWID-DELL-VIET-990142 từ IP 14.162.88.91"
+    },
+    {
+      "id": "log_002",
+      "timestamp": "2026-09-29T18:20:00Z",
+      "action": "API_VERIFY_SUCCESS",
+      "user": "nguyenvana",
+      "applicationId": "app_viet_01",
+      "result": "SUCCESS",
+      "details": "Xác thực key VIET-VIP-8888-9999-AAAA thành công"
+    },
+    {
+      "id": "log_003",
+      "timestamp": "2026-09-28T16:00:00Z",
+      "action": "ADMIN_CREATE_LICENSE",
+      "user": "admin",
+      "applicationId": "app_viet_01",
+      "result": "SUCCESS",
+      "details": "Admin tạo mới key VIET-PRO-1111-2222-CCCC (Thời hạn 7 ngày)"
+    }
+  ],
+  "devices": [
+    {
+      "id": "dev_001",
+      "hwid": "HWID-PC-VIETNAM-882194",
+      "ip": "113.161.45.22",
+      "appId": "app_viet_01",
+      "appName": "Tool VIP Pro Auto 2026",
+      "licenseKey": "VIET-VIP-8888-9999-AAAA",
+      "username": "nguyenvana",
+      "status": "ONLINE",
+      "firstConnected": "2026-09-25T09:30:00Z",
+      "lastSeen": "2026-09-29T20:25:00Z"
+    },
+    {
+      "id": "dev_002",
+      "hwid": "HWID-DELL-VIET-990142",
+      "ip": "14.162.88.91",
+      "appId": "app_viet_01",
+      "appName": "Tool VIP Pro Auto 2026",
+      "licenseKey": "VIET-LIFETIME-0000-1111-BBBB",
+      "username": "tranthib",
+      "status": "ONLINE",
+      "firstConnected": "2026-09-20T14:10:00Z",
+      "lastSeen": "2026-09-29T20:26:00Z"
+    },
+    {
+      "id": "dev_003",
+      "hwid": "HWID-ASUS-GAMING-771822",
+      "ip": "27.72.102.15",
+      "appId": "app_viet_02",
+      "appName": "VietBot Trade Crypto & Forex",
+      "licenseKey": "VIET-PRO-1111-2222-CCCC",
+      "username": "lethic",
+      "status": "ONLINE",
+      "firstConnected": "2026-09-28T16:20:00Z",
+      "lastSeen": "2026-09-29T20:24:00Z"
+    }
+  ]
+}
